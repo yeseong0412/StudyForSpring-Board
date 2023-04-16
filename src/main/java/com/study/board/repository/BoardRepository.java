@@ -12,3 +12,4 @@ public interface BoardRepository extends JpaRepository<Board, Integer> {
     Page<Board> findByTitleContaining(String searchKeyword, Pageable pageable);
     //Page<Board> deleteBoardByTitleContaining(String searchKey,Pageable pageable);
 }
+//

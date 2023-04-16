@@ -98,3 +98,4 @@ public class BoardController {
         return "redirect:/board/list";
     }
 }
+//아 공부  하기 싫다
